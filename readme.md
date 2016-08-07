@@ -15,3 +15,31 @@ This is a custom lifetime manager that acts like Microsoft.Practices.Unity.Trans
 
 PerThreadLifetimeManager
 A Microsoft.Practices.Unity.LifetimeManager that holds the instances given to it, keeping one instance per thread.
+
+MAIN THREAD
+Creating all on Thread 8
+Creating instance of ObjectForContainerControlled
+Creating instance of ObjectForTransient
+Creating instance of ObjectForExternallyControlled
+Creating instance of ObjectForPerResolve
+Creating instance of ObjectForPerThread
+Creating instance of ObjectForTransient
+
+Creating all on Thread 8
+Creating instance of ObjectForTransient
+Creating instance of ObjectForPerResolve
+Creating instance of ObjectForTransient
+
+TASK RUN
+Creating all on Thread 10
+Creating instance of ObjectForTransient
+Creating instance of ObjectForPerResolve
+Creating instance of ObjectForPerThread
+Creating instance of ObjectForTransient
+
+Creating all on Thread 9
+Creating instance of ObjectForTransient
+Creating instance of ObjectForPerResolve
+Creating instance of ObjectForPerThread
+Creating instance of ObjectForTransient
+

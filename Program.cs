@@ -18,11 +18,6 @@ namespace UnityTest
                 lock (lockObject)
                 {
                     Console.WriteLine("Creating all on Thread {0}", Thread.CurrentThread.ManagedThreadId);
-                    //container.Resolve<IObjectForTransient>();
-                    //container.Resolve<IObjectForContainerControlled>();
-                    //container.Resolve<IObjectForExternallyControlled>();
-                    //container.Resolve<IObjectForPerResolve>();
-                    //container.Resolve<IObjectForPerThread>();
                     container.Resolve<ICandidateService>();
                     Console.WriteLine();
                 }
